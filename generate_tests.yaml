@@ -1,8 +1,11 @@
-task: "Generate unit tests for the provided C++ file"
-language: "C++"
-framework: "Google Test"
-rules:
-  - Use TEST() macros
-  - Include necessary headers
-  - Avoid duplicates
-  - Write test for each public function
+test_rules:
+  task: "Generate unit tests for the provided C++ file"
+  language: "C++"
+  framework: "gtest"
+  avoid_duplicates: true
+  include_headers: true
+  coverage_target: 90%
+  format_style: clean
+  rules:
+    - Use TEST() macros
+    - Write test for each public function
