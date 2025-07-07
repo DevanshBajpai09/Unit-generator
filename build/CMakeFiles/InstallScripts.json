@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/new-generator/build/cmake_install.cmake",
+		"C:/new-generator/build/third_party/googletest/cmake_install.cmake",
+		"C:/new-generator/build/third_party/googletest/googlemock/cmake_install.cmake",
+		"C:/new-generator/build/third_party/googletest/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,1 @@
+-I"C:/new-generator/include" -isystem "C:/new-generator/third_party/googletest/googletest/include" -isystem "C:/new-generator/third_party/googletest/googletest"
